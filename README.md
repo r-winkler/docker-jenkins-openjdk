@@ -9,6 +9,7 @@ The following additional software is installed:
 * Maven
 * Git
 * Nano
+* npm
 * Jenkins Plugins
 	* greenballs
 
