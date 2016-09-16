@@ -1,6 +1,6 @@
 FROM openjdk:8
 
-RUN apt-get update -qq && apt-get install -qq curl git nano && apt-get clean
+RUN apt-get update -qq && apt-get install -qq curl git nano npm && apt-get clean
 
 RUN curl -sf -o /opt/apache-maven-bin.tar.gz http://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz; \
 	tar xzf /opt/apache-maven-bin.tar.gz -C /opt/; \
