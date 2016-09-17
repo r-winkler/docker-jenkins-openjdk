@@ -1,4 +1,7 @@
 FROM openjdk:8
+ENV DOCKER_VERSION 1.12.0
+ENV DOCKER_COMPOSE_VERSION 1.8.0
+ENV DOCKER_MACHINE_VERSION 0.8.0
 
 RUN apt-get update -qq && apt-get install -qq curl wget git subversion nano nodejs npm iputils-ping && apt-get clean
 
