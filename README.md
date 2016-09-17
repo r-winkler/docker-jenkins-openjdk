@@ -8,9 +8,13 @@ The following additional software is installed:
 
 * Maven
 * Git
+* Subversion
 * Nano
 * Node.js
 * npm
+* curl
+* wget
+* iputils-ping
 * Jenkins Plugins
 	* greenballs
 
