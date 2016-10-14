@@ -38,6 +38,6 @@ VOLUME $JENKINS_HOME/data
 WORKDIR $JENKINS_HOME
 
 EXPOSE 8080
-HEALTHCHECK --interval=10s --timeout=3s CMD curl --fail http://localhost:8080/ || exit 1
+HEALTHCHECK --interval=20s --timeout=10s CMD curl --fail http://localhost:8080/ || exit 1
 CMD [ "java", "-jar", "jenkins.war" ]
 
